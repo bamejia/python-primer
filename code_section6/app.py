@@ -6,19 +6,12 @@ from code_section6.security import authenticate, identity
 from code_section6.resources.user_resource import UserRegister
 from code_section6.resources.item_resource import ItemDAO, ItemListDAO
 from code_section6.resources.store_resource import StoreListResource, StoreResource
-from code_section6.db import db
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///data.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.secret_key = "Tom"
 api = Api(app)
-
-
-@app.before_first_request
-def create_tables():
-    db.create_all()
-
 
 jwt = JWT(app, authenticate, identity)
 
@@ -30,6 +23,5 @@ api.add_resource(StoreListResource, "/stores")
 
 
 # if __name__ == "__main__":
-def run():
-    db.init_app(app)
-    app.run(port=11111, debug=True)
+# def run():
+#     app.run(port=11111, debug=True)
