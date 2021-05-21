@@ -26,8 +26,13 @@ api.add_resource(StoreListResource, "/stores")
 if __name__ == "__main__":
 # def run():
     from code_section6.db import db
+
     db.init_app(app)
-    # app.run(port=5000, debug=True)
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+
+    if app.config['DEBUG']:
+        @app.before_first_request
+        def create_tables():
+            db.create_all()
+
+    app.run(port=5000)
 
