@@ -1,4 +1,4 @@
-from code_section6.app import app
+from app import app
 from code_section6.db import db
 
 
