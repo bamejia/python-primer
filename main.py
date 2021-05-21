@@ -11,4 +11,4 @@ def create_tables():
     db.create_all()
 
 
-# app.run(host='0.0.0.0', debug=False, port=environ.get("PORT", 11111))
+app.run(host='0.0.0.0', debug=False, port=environ.get("PORT", 11111))
