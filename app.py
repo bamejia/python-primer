@@ -11,7 +11,7 @@ from code_section6.resources.home_resource import Home
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
-app.config["SQLALCHEMY_DATABASE_URI"] = environ.get('DATABASE_URL', 'sqlite:///data.db')
+app.config["SQLALCHEMY_DATABASE_URI"] = environ.get('DATABASE_URL2', 'sqlite:///data.db')
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.secret_key = "Tom"
 api = Api(app)
