@@ -29,7 +29,7 @@ api.add_resource(StoreResource, "/store/<string:name>")
 api.add_resource(StoreListResource, "/stores")
 
 
-if __name__ == "__main__":
-    # def run():
+# if __name__ == "__main__":
+def run():
     db.init_app(app)
     app.run(port=11111, debug=True)
