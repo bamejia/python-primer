@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68269c1a-991b-4b9e-b628-7452da668cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_section6/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_section6/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_section6/runtime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_section6/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonPrimer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPrimer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +31,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/code_section6" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bamxm\PycharmProjects\PythonPrimer\code_section6" />
       <recent name="C:\Users\bamxm\PycharmProjects\PythonPrimer" />
+      <recent name="C:\Users\bamxm\PycharmProjects\PythonPrimer\code_section6" />
       <recent name="C:\Users\bamxm\PycharmProjects\PythonPrimer\code_section3" />
       <recent name="C:\Users\bamxm\PycharmProjects\PythonPrimer\code_section6\resources" />
     </key>
@@ -168,10 +165,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1621470430041" />
-    <state x="548" y="175" key="FileChooserDialogImpl" timestamp="1621542940946">
+    <state x="548" y="175" key="FileChooserDialogImpl" timestamp="1621606549262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621542940946" />
+    <state x="548" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621606549261" />
     <state width="1368" height="151" key="GridCell.Tab.0.bottom" timestamp="1621534140315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -204,10 +201,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1368" height="228" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621371217191" />
-    <state x="253" y="70" key="SettingsEditor" timestamp="1621543861362">
+    <state x="253" y="70" key="SettingsEditor" timestamp="1621606561190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="253" y="70" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621543861362" />
+    <state x="253" y="70" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621606561190" />
     <state x="549" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1621402029177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
