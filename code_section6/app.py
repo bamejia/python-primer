@@ -25,5 +25,5 @@ api.add_resource(StoreListResource, "/stores")
 if __name__ == "__main__":
 # def run():
     from code_section6.db import db
-    app.run(port=11111, debug=True)
     db.init_app(app)
+    app.run(port=11111, debug=True)
