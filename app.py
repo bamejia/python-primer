@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 from flask_jwt import JWT
-import os
+# import os
 
 from code_section6.security import authenticate, identity
 from code_section6.resources.user_resource import UserRegister
@@ -34,5 +34,8 @@ if __name__ == "__main__":
         def create_tables():
             db.create_all()
 
-    app.run(port=5000)
+    from os import environ
+
+    app.run(host='0.0.0.0', debug=False, port=environ.get("PORT", 11111))
+
 
