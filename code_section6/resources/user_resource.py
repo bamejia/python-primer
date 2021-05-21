@@ -1,6 +1,6 @@
 import sqlite3
 from flask_restful import Resource, reqparse
-from models.usermodel import UserModel
+from code_section6.models.usermodel import UserModel
 
 
 class UserRegister(Resource):

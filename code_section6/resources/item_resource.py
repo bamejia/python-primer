@@ -5,7 +5,7 @@ from contextlib import closing
 import sqlite3
 import sys
 
-from models.itemmodel import ItemModel
+from code_section6.models.itemmodel import ItemModel
 
 
 class ItemDAO(Resource):

@@ -1,6 +1,6 @@
 # import sqlite3
 # from contextlib import closing
-from db import db
+from code_section6.db import db
 
 
 class ItemModel(db.Model):

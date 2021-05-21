@@ -1,5 +1,5 @@
 from hmac import compare_digest
-from models.usermodel import UserModel
+from code_section6.models.usermodel import UserModel
 
 
 def authenticate(username, password):

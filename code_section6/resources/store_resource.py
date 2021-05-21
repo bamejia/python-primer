@@ -1,5 +1,5 @@
 from flask_restful import Resource
-from models.storemodel import StoreModel
+from code_section6.models.storemodel import StoreModel
 from sqlalchemy.exc import DatabaseError
 import sys
 
